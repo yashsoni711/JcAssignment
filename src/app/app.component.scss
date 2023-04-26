@@ -1,0 +1,21 @@
+@import "./shared/css/variables.scss";
+
+.container {
+  padding: 0px;
+}
+
+.heading {
+  background: $primaryColor;
+  color: #fdfefe;
+  padding: 20px 40px;
+  font-size: 20px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .container {
+    padding: 0px;
+  }
+  .heading {
+    padding: 20px;
+  }
+}

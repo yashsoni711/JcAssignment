@@ -1,16 +1,23 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
+import { MaterialModule } from './modules/material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CountriesTableComponent } from './countriesTable/countriesTable.component';
+import { CommonService } from './shared/services/common.service';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent, CountriesTableComponent],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MaterialModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    FormsModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [CommonService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
