@@ -34,3 +34,13 @@ Have Implemeted the table with following functionalities :
 
 8. Filtering by clicking on Pills
    : On clicking the pills it gets added to the filter select dropdown and filtering is done based on that.
+
+## Screenshots
+
+<img width="1512" alt="Screenshot 2023-04-26 at 10 31 53 PM" src="https://user-images.githubusercontent.com/131767152/234664686-74f06634-0ebc-44dc-a9c7-4213329b8022.png">
+<img width="1506" alt="Screenshot 2023-04-26 at 10 32 25 PM" src="https://user-images.githubusercontent.com/131767152/234664702-b0248c0b-e747-4d3c-8363-1ed9afed2668.png">
+<img width="1506" alt="Screenshot 2023-04-26 at 10 32 47 PM" src="https://user-images.githubusercontent.com/131767152/234664707-540c936b-1191-4ee7-bfee-a8c7ce75d7ba.png">
+<img width="1506" alt="Screenshot 2023-04-26 at 10 32 56 PM" src="https://user-images.githubusercontent.com/131767152/234664712-1ebd13fa-2caf-4010-a42a-e265b2ad0ff9.png">
+<img width="605" alt="Screenshot 2023-04-26 at 10 38 05 PM" src="https://user-images.githubusercontent.com/131767152/234664713-da7c65af-4ee5-4b65-82f6-b6efda66aa58.png">
+
+![assignemtGifImage](https://user-images.githubusercontent.com/131767152/234665134-9ff66553-2eda-4988-aa87-9970d00f8b3f.gif)
