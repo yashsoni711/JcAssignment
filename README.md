@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 To run the project firstly run npm install and then npm start. It will by default open on the localhost:4200. Go to the browser and open http://localhost:4200 to see the application.
 
-# Have Implemeted the table with following functionalities :
+# Have implemented with the following functionalities :
 
 1. **Display**
    : Displaying the records after fetching the information from the API
