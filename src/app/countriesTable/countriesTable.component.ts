@@ -27,7 +27,6 @@ import {
   styleUrls: ['./countriesTable.component.scss'],
   templateUrl: './countriesTable.component.html',
   animations: [
-    // Each unique animation requires its own trigger. The first argument of the trigger function is the name
     trigger('rotatedState', [
       state('default', style({ transform: 'rotate(0)' })),
       state('rotated', style({ transform: 'rotate(-360deg)' })),
@@ -55,12 +54,6 @@ export class CountriesTableComponent implements AfterViewInit, OnInit {
     KEY_NAME.currencies,
     KEY_NAME.languages,
   ];
-
-  refreshData() {
-    this.state = this.state === 'default' ? 'rotated' : 'default';
-    this.resetAllFilters();
-    this.fetchCountriesList();
-  }
 
   ngOnInit(): void {
     this.fetchCountriesList();
@@ -188,5 +181,11 @@ export class CountriesTableComponent implements AfterViewInit, OnInit {
     this.applyFilter({ value: DEFAULT_NAME }, { name: KEY_NAME.name });
     this.isFilterApplied = false;
     this.inputVal = '';
+  }
+
+  refreshData() {
+    this.state = this.state === 'default' ? 'rotated' : 'default';
+    this.resetAllFilters();
+    this.fetchCountriesList();
   }
 }
