@@ -15,12 +15,12 @@ npm start
    : Displaying the records after fetching the information from the API
 
 2. **Filtering**
-   : On the basis of country name
-   : On the basis of subregion
-   : On the basis of curreny
-   : On the basis of language
-   : Combination of all above
-   : Reset button is there, clicking on which it will reset all the filters
+   - On the basis of country name
+   - On the basis of subregion
+   - On the basis of currency
+   - On the basis of language
+   - Combination of all above
+   - Reset button is there, clicking on which it will reset all the filters
 
 3. **Sorting**
    : In Country Name (sorted ascending by default)
